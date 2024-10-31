@@ -1,0 +1,7 @@
+C:\Nirmala\Csharp\Ass2-program5\Ass2-program5\bin\Debug\Ass2-program5.exe.config
+C:\Nirmala\Csharp\Ass2-program5\Ass2-program5\bin\Debug\Ass2-program5.exe
+C:\Nirmala\Csharp\Ass2-program5\Ass2-program5\bin\Debug\Ass2-program5.pdb
+C:\Nirmala\Csharp\Ass2-program5\Ass2-program5\obj\Debug\Ass2-program5.csproj.AssemblyReference.cache
+C:\Nirmala\Csharp\Ass2-program5\Ass2-program5\obj\Debug\Ass2-program5.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp\Ass2-program5\Ass2-program5\obj\Debug\Ass2-program5.exe
+C:\Nirmala\Csharp\Ass2-program5\Ass2-program5\obj\Debug\Ass2-program5.pdb
