@@ -1,7 +1,0 @@
-C:\Nirmala\Csharp\Day1_dotnet\Day1_dotnet\bin\Debug\Day1_dotnet.exe.config
-C:\Nirmala\Csharp\Day1_dotnet\Day1_dotnet\bin\Debug\Day1_dotnet.exe
-C:\Nirmala\Csharp\Day1_dotnet\Day1_dotnet\bin\Debug\Day1_dotnet.pdb
-C:\Nirmala\Csharp\Day1_dotnet\Day1_dotnet\obj\Debug\Day1_dotnet.csproj.AssemblyReference.cache
-C:\Nirmala\Csharp\Day1_dotnet\Day1_dotnet\obj\Debug\Day1_dotnet.csproj.CoreCompileInputs.cache
-C:\Nirmala\Csharp\Day1_dotnet\Day1_dotnet\obj\Debug\Day1_dotnet.exe
-C:\Nirmala\Csharp\Day1_dotnet\Day1_dotnet\obj\Debug\Day1_dotnet.pdb

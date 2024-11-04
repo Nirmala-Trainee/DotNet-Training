@@ -1,0 +1,6 @@
+C:\Nirmala\Csharp Assignments\Assignment_3\string_reverce\string_reverce\bin\Debug\string_reverce.exe.config
+C:\Nirmala\Csharp Assignments\Assignment_3\string_reverce\string_reverce\bin\Debug\string_reverce.exe
+C:\Nirmala\Csharp Assignments\Assignment_3\string_reverce\string_reverce\bin\Debug\string_reverce.pdb
+C:\Nirmala\Csharp Assignments\Assignment_3\string_reverce\string_reverce\obj\Debug\string_reverse.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp Assignments\Assignment_3\string_reverce\string_reverce\obj\Debug\string_reverce.exe
+C:\Nirmala\Csharp Assignments\Assignment_3\string_reverce\string_reverce\obj\Debug\string_reverce.pdb

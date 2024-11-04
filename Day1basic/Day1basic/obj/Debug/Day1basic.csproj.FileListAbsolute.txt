@@ -1,7 +1,0 @@
-C:\Nirmala\Csharp\Day1basic\Day1basic\bin\Debug\Day1basic.exe.config
-C:\Nirmala\Csharp\Day1basic\Day1basic\bin\Debug\Day1basic.exe
-C:\Nirmala\Csharp\Day1basic\Day1basic\bin\Debug\Day1basic.pdb
-C:\Nirmala\Csharp\Day1basic\Day1basic\obj\Debug\Day1basic.csproj.AssemblyReference.cache
-C:\Nirmala\Csharp\Day1basic\Day1basic\obj\Debug\Day1basic.csproj.CoreCompileInputs.cache
-C:\Nirmala\Csharp\Day1basic\Day1basic\obj\Debug\Day1basic.exe
-C:\Nirmala\Csharp\Day1basic\Day1basic\obj\Debug\Day1basic.pdb
