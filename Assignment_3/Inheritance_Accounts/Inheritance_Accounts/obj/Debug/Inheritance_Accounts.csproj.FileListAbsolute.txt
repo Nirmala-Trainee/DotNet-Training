@@ -1,0 +1,7 @@
+C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Accounts\Inheritance_Accounts\obj\Debug\Inheritance_Accounts.csproj.AssemblyReference.cache
+C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Accounts\Inheritance_Accounts\obj\Debug\Inheritance_Accounts.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Accounts\Inheritance_Accounts\bin\Debug\Inheritance_Accounts.exe.config
+C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Accounts\Inheritance_Accounts\bin\Debug\Inheritance_Accounts.exe
+C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Accounts\Inheritance_Accounts\bin\Debug\Inheritance_Accounts.pdb
+C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Accounts\Inheritance_Accounts\obj\Debug\Inheritance_Accounts.exe
+C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Accounts\Inheritance_Accounts\obj\Debug\Inheritance_Accounts.pdb
