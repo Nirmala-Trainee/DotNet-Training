@@ -1,7 +1,0 @@
-C:\Nirmala\Csharp Assignments\Assignment_3\string_sameornot\string_sameornot\bin\Debug\string_sameornot.exe.config
-C:\Nirmala\Csharp Assignments\Assignment_3\string_sameornot\string_sameornot\bin\Debug\string_sameornot.exe
-C:\Nirmala\Csharp Assignments\Assignment_3\string_sameornot\string_sameornot\bin\Debug\string_sameornot.pdb
-C:\Nirmala\Csharp Assignments\Assignment_3\string_sameornot\string_sameornot\obj\Debug\string_sameornot.csproj.AssemblyReference.cache
-C:\Nirmala\Csharp Assignments\Assignment_3\string_sameornot\string_sameornot\obj\Debug\string_sameornot.csproj.CoreCompileInputs.cache
-C:\Nirmala\Csharp Assignments\Assignment_3\string_sameornot\string_sameornot\obj\Debug\string_sameornot.exe
-C:\Nirmala\Csharp Assignments\Assignment_3\string_sameornot\string_sameornot\obj\Debug\string_sameornot.pdb

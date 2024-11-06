@@ -1,7 +1,0 @@
-C:\Nirmala\Csharp Assignments\Assignment_3\string_length\string_length\bin\Debug\string_length.exe.config
-C:\Nirmala\Csharp Assignments\Assignment_3\string_length\string_length\bin\Debug\string_length.exe
-C:\Nirmala\Csharp Assignments\Assignment_3\string_length\string_length\bin\Debug\string_length.pdb
-C:\Nirmala\Csharp Assignments\Assignment_3\string_length\string_length\obj\Debug\string_length.csproj.AssemblyReference.cache
-C:\Nirmala\Csharp Assignments\Assignment_3\string_length\string_length\obj\Debug\string_length.csproj.CoreCompileInputs.cache
-C:\Nirmala\Csharp Assignments\Assignment_3\string_length\string_length\obj\Debug\string_length.exe
-C:\Nirmala\Csharp Assignments\Assignment_3\string_length\string_length\obj\Debug\string_length.pdb

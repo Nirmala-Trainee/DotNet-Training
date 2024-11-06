@@ -5,97 +5,90 @@ namespace Inheritance_2
 {
     class Student
     {
-        public int RollNo { get; set; }
-        public string Name { get; set; }
-        public string StudentClass { get; set; }
-        public string Semester { get; set; }
-        public string Branch { get; set; }
-        private int[] Marks { get; set; }
-
-        public Student(int rollNo, string name, string studentClass, string semester, string branch)
+        protected int Roll_No;
+        protected string Name;
+        protected string Class_Name;
+        protected int Semester;
+        protected string Branch;
+        protected int[] marks = new int[5];
+        public Student(int roll_no, string name, string class_name, int sem, string branch)
         {
-            RollNo = rollNo;
+            Roll_No = roll_no;
             Name = name;
-            StudentClass = studentClass;
-            Semester = semester;
+            Class_Name = class_name;
+            Semester = sem;
             Branch = branch;
-            Marks = new int[0];
         }
-        public void GetMarks()
+        public void Get_Marks()
         {
-            Console.Write("Enter number of subjects: ");
-            int numSubjects = int.Parse(Console.ReadLine());
-            Marks = new int[numSubjects];
-
-            for (int i = 0; i < numSubjects; i++)
+            for (int i = 0; i < marks.Length; i++)
             {
-                Console.Write($"Enter marks for subject {i + 1}: ");
-                Marks[i] = int.Parse(Console.ReadLine());
+                Console.WriteLine("Enter the subject {0} marks", i + 1);
+                marks[i] = Convert.ToInt32(Console.ReadLine());
             }
         }
-
-        public void DisplayResult()
+    }
+    class Display_Marks : Student
+    {
+        public Display_Marks(int roll_no, string name, string class_name, int sem, string branch)
+            : base(roll_no, name, class_name, sem, branch)
         {
-            if (Marks.Length == 0)
+
+        }
+        public void Display_Result()
+        {
+            int sum = 0;
+            float avg;
+            for (int i = 0; i < marks.Length; i++)
             {
-                Console.WriteLine("Marks have not been entered yet.");
-                return;
+                sum = sum = marks[i];
             }
-
-            int totalMarks = 0;
-            bool failed = false;
-
-            foreach (int mark in Marks)
+            avg = sum / marks.Length;
+            for (int j = 0; j < marks.Length; j++)
             {
-                totalMarks += mark;
-                if (mark < 35)
+                if (marks[j] < 35)
                 {
-                    failed = true;
+                    Console.WriteLine("Failed in subject {0}", j + 1);
                 }
             }
-
-            double average = totalMarks / (double)Marks.Length;
-
-            if (!failed && average < 50)
+            if (avg > 50)
             {
-                failed = true;
-            }
-
-            if (failed)
-            {
-                Console.WriteLine("Result: Failed");
-            }
-            else if (average >= 50)
-            {
-                Console.WriteLine("Result: Passed");
+                Console.WriteLine("Student Passed and Average is {0}", avg);
             }
             else
             {
-                Console.WriteLine("Result: Failed");
+                Console.WriteLine("Student Failed and Average is {0}", avg);
             }
         }
-
-        public void DisplayData()
+        public void Display_Data()
         {
-            Console.WriteLine("Student Details:");
-            Console.WriteLine($"Roll No: {RollNo}");
-            Console.WriteLine($"Name: {Name}");
-            Console.WriteLine($"Class: {StudentClass}");
-            Console.WriteLine($"Semester: {Semester}");
-            Console.WriteLine($"Branch: {Branch}");
-            Console.WriteLine("Marks: " + string.Join(", ", Marks));
+            Console.WriteLine("Student Roll no:{0}", Roll_No);
+            Console.WriteLine("Student Name:{0}", Name);
+            Console.WriteLine("Class:{0}", Class_Name);
+            Console.WriteLine("Semester:{0}", Semester);
+            Console.WriteLine("Branch:{0}", Branch);
+
         }
     }
-
-    class Program
+    class Student1
     {
-        static void Main()
+        public static void Main()
         {
-            Student student = new Student(10, "Amith", "8th", "1th", "Maths");
-            student.GetMarks();
-            student.DisplayResult();
-            student.DisplayData();
-            Console.ReadLine();
+            Console.WriteLine("Enter the student roll");
+            int roll_no = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the student name");
+            string name = Console.ReadLine();
+            Console.WriteLine("Enter the student class");
+            string class_name = Console.ReadLine();
+            Console.WriteLine("Enter the semester");
+            int sem = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the student branch");
+            string branch = Console.ReadLine();
+            Display_Marks d = new Display_Marks(roll_no, name, class_name, sem, branch);
+            d.Get_Marks();
+            d.Display_Result();
+            d.Display_Data();
+            Console.Read();
         }
     }
 }

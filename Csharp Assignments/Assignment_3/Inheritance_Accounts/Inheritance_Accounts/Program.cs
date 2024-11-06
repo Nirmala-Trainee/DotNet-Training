@@ -4,21 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inheritance_Accounts
+namespace Assignment_3
 {
-    class Accounts_Inheritance
+    public class Accounts
     {
         public int Account_No;
         public string Customer_Name;
         public string Account_Type;
         public string Transaction_Type;
-        public int amount;
-        public int balance;
-
-        public Accounts_Inheritance(int account_no, string customer_name, string account_type)
+        public double amount;
+        public double balance;
+        public Accounts(int account_no, string customer_name, string account_type)
         {
             Account_No = account_no;
+
             Customer_Name = customer_name;
+
             Account_Type = account_type;
         }
         public void Set_Data(string trans_type, int amo, int bal)
@@ -28,25 +29,23 @@ namespace Inheritance_Accounts
             balance = bal;
         }
     }
-    internal class Balance : Accounts_Inheritance
+    internal class Balance : Accounts
     {
         public Balance(int account_no, string customer_name, string account_type) : base(account_no, customer_name, account_type)
         {
 
         }
-        public int Credit(int amount)
+        public void Credit(double amount)
         {
             balance = balance + amount;
-            return balance;
         }
-        public int Debit(int amount)
+        public void Debit(double amount)
         {
             balance = balance - amount;
-            return balance;
         }
         public void Update_Balance(string transac_type)
         {
-            if (transac_type == "c" || transac_type == "C")
+            if (transac_type == "d" || transac_type == "D")
             {
                 Credit(amount);
             }
@@ -57,44 +56,37 @@ namespace Inheritance_Accounts
         }
         public void Show_Data()
         {
-            Console.WriteLine($"Account Number : {Account_No}");
-            Console.WriteLine($"Customer Name : {Customer_Name}");
-            Console.WriteLine($"Account Type : {Account_Type}");
-            Console.WriteLine($"Transaction Type : {Transaction_Type}");
-            Console.WriteLine($"Amount : {amount}");
-            Console.WriteLine($"Balance : {balance}");
+
+            Console.WriteLine($"Account Number:{Account_No}");
+            Console.WriteLine($"Customer Name:{Customer_Name}");
+            Console.WriteLine($"Account Type:{Account_Type}");
+            Console.WriteLine($"Transaction Type:{Transaction_Type}");
+            Console.WriteLine($"Amount:{amount}");
+            Console.WriteLine($"Balance:{balance}");
+
         }
     }
-    class Inheritance1
+    class Accounts1
     {
         public static void Main()
         {
-            Console.WriteLine("Enter the account number : ");
+            Console.WriteLine("Enter the Account number:");
             int acc_no = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the customer name : ");
+            Console.WriteLine("Enter the Customer name:");
             string customer_name = Console.ReadLine();
-            Console.WriteLine("Enter the account type : ");
+            Console.WriteLine("Enter the Account type:");
             string acc_type = Console.ReadLine();
-
-
             Balance ob = new Balance(acc_no, customer_name, acc_type);
-
-
-            Console.WriteLine("Enter the transaction type : ");
+            Console.WriteLine("Enter the Transaction type:");
             string trans_type = Console.ReadLine();
-            Console.WriteLine("Enter the amount : ");
+            Console.WriteLine("Enter the Amount:");
             int amo = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the balance : ");
+            Console.WriteLine("Enter the Balance:");
             int bal = Convert.ToInt32(Console.ReadLine());
-
             ob.Set_Data(trans_type, amo, bal);
             ob.Update_Balance(trans_type);
-
-            Console.WriteLine("-------------------Details of the customer-----------------");
             ob.Show_Data();
-
-            Console.ReadLine();
+            Console.Read();
         }
     }
 }
-
