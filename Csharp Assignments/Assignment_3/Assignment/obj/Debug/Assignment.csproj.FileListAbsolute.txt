@@ -1,0 +1,7 @@
+C:\Nirmala\Csharp Assignments\Assignment\Assignment\bin\Debug\Assignment.exe.config
+C:\Nirmala\Csharp Assignments\Assignment\Assignment\bin\Debug\Assignment.exe
+C:\Nirmala\Csharp Assignments\Assignment\Assignment\bin\Debug\Assignment.pdb
+C:\Nirmala\Csharp Assignments\Assignment\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
+C:\Nirmala\Csharp Assignments\Assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp Assignments\Assignment\Assignment\obj\Debug\Assignment.exe
+C:\Nirmala\Csharp Assignments\Assignment\Assignment\obj\Debug\Assignment.pdb

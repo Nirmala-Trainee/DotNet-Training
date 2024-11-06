@@ -1,7 +1,0 @@
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Sales\Inheritance_Sales\bin\Debug\Inheritance_Sales.exe.config
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Sales\Inheritance_Sales\bin\Debug\Inheritance_Sales.exe
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Sales\Inheritance_Sales\bin\Debug\Inheritance_Sales.pdb
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Sales\Inheritance_Sales\obj\Debug\Inheritance_Sales.csproj.AssemblyReference.cache
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Sales\Inheritance_Sales\obj\Debug\Inheritance_Sales.csproj.CoreCompileInputs.cache
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Sales\Inheritance_Sales\obj\Debug\Inheritance_Sales.exe
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance_Sales\Inheritance_Sales\obj\Debug\Inheritance_Sales.pdb

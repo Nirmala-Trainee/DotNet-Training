@@ -1,7 +1,0 @@
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance-2\Inheritance-2\obj\Debug\Inheritance-2.csproj.AssemblyReference.cache
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance-2\Inheritance-2\obj\Debug\Inheritance-2.csproj.CoreCompileInputs.cache
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance-2\Inheritance-2\bin\Debug\Inheritance-2.exe.config
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance-2\Inheritance-2\bin\Debug\Inheritance-2.exe
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance-2\Inheritance-2\bin\Debug\Inheritance-2.pdb
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance-2\Inheritance-2\obj\Debug\Inheritance-2.exe
-C:\Nirmala\Csharp Assignments\Assignment_3\Inheritance-2\Inheritance-2\obj\Debug\Inheritance-2.pdb

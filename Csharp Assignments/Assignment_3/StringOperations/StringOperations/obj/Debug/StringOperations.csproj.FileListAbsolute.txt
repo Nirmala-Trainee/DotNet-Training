@@ -1,7 +1,0 @@
-C:\Nirmala\Csharp Assignments\Assignment_3\StringOperations\StringOperations\bin\Debug\StringOperations.exe.config
-C:\Nirmala\Csharp Assignments\Assignment_3\StringOperations\StringOperations\bin\Debug\StringOperations.exe
-C:\Nirmala\Csharp Assignments\Assignment_3\StringOperations\StringOperations\bin\Debug\StringOperations.pdb
-C:\Nirmala\Csharp Assignments\Assignment_3\StringOperations\StringOperations\obj\Debug\StringOperations.csproj.AssemblyReference.cache
-C:\Nirmala\Csharp Assignments\Assignment_3\StringOperations\StringOperations\obj\Debug\StringOperations.csproj.CoreCompileInputs.cache
-C:\Nirmala\Csharp Assignments\Assignment_3\StringOperations\StringOperations\obj\Debug\StringOperations.exe
-C:\Nirmala\Csharp Assignments\Assignment_3\StringOperations\StringOperations\obj\Debug\StringOperations.pdb
