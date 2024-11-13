@@ -35,7 +35,7 @@ namespace Sorting
             {
                 Console.WriteLine($"Enter details for product {i}:");
                 Console.WriteLine(" Enter Product ID:");
-                int id = int.Parse(Console.ReadLine());
+                int id = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter Product Name:");
                 String name = Console.ReadLine();
                 Console.WriteLine("Enter Price:");
@@ -55,8 +55,9 @@ namespace Sorting
             foreach (var product in sortedProducts)
             {
                 Console.WriteLine($"Product ID: {product.Product_Id}, Name: {product.Product_Name}, Price: {product.Price}");
-                Console.ReadLine();
+             
             }
+            Console.ReadLine();
         }
     }
 }
