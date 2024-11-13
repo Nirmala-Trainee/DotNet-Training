@@ -1,0 +1,7 @@
+C:\Nirmala\Csharp_Codechallenge\CC_2\Graduate\Graduate\obj\Debug\Graduate.csproj.AssemblyReference.cache
+C:\Nirmala\Csharp_Codechallenge\CC_2\Graduate\Graduate\obj\Debug\Graduate.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp_Codechallenge\CC_2\Graduate\Graduate\bin\Debug\Graduate.exe.config
+C:\Nirmala\Csharp_Codechallenge\CC_2\Graduate\Graduate\bin\Debug\Graduate.exe
+C:\Nirmala\Csharp_Codechallenge\CC_2\Graduate\Graduate\bin\Debug\Graduate.pdb
+C:\Nirmala\Csharp_Codechallenge\CC_2\Graduate\Graduate\obj\Debug\Graduate.exe
+C:\Nirmala\Csharp_Codechallenge\CC_2\Graduate\Graduate\obj\Debug\Graduate.pdb

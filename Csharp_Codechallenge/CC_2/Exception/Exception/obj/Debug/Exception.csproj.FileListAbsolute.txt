@@ -1,0 +1,7 @@
+C:\Nirmala\Csharp_Codechallenge\CC_2\Exception\Exception\bin\Debug\Exception.exe.config
+C:\Nirmala\Csharp_Codechallenge\CC_2\Exception\Exception\bin\Debug\Exception.exe
+C:\Nirmala\Csharp_Codechallenge\CC_2\Exception\Exception\bin\Debug\Exception.pdb
+C:\Nirmala\Csharp_Codechallenge\CC_2\Exception\Exception\obj\Debug\Exception.csproj.AssemblyReference.cache
+C:\Nirmala\Csharp_Codechallenge\CC_2\Exception\Exception\obj\Debug\Exception.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp_Codechallenge\CC_2\Exception\Exception\obj\Debug\Exception.exe
+C:\Nirmala\Csharp_Codechallenge\CC_2\Exception\Exception\obj\Debug\Exception.pdb

@@ -1,0 +1,7 @@
+C:\Nirmala\Csharp_Codechallenge\CC_2\Sorting\Sorting\bin\Debug\Sorting.exe.config
+C:\Nirmala\Csharp_Codechallenge\CC_2\Sorting\Sorting\bin\Debug\Sorting.exe
+C:\Nirmala\Csharp_Codechallenge\CC_2\Sorting\Sorting\bin\Debug\Sorting.pdb
+C:\Nirmala\Csharp_Codechallenge\CC_2\Sorting\Sorting\obj\Debug\Sorting.csproj.AssemblyReference.cache
+C:\Nirmala\Csharp_Codechallenge\CC_2\Sorting\Sorting\obj\Debug\Sorting.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp_Codechallenge\CC_2\Sorting\Sorting\obj\Debug\Sorting.exe
+C:\Nirmala\Csharp_Codechallenge\CC_2\Sorting\Sorting\obj\Debug\Sorting.pdb
