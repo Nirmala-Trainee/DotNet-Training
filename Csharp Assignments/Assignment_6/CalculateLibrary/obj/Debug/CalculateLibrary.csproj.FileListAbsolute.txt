@@ -1,0 +1,5 @@
+C:\Nirmala\Csharp Assignments\Assignment_6\CalculateLibrary\bin\Debug\CalculateLibrary.dll
+C:\Nirmala\Csharp Assignments\Assignment_6\CalculateLibrary\bin\Debug\CalculateLibrary.pdb
+C:\Nirmala\Csharp Assignments\Assignment_6\CalculateLibrary\obj\Debug\CalculateLibrary.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp Assignments\Assignment_6\CalculateLibrary\obj\Debug\CalculateLibrary.dll
+C:\Nirmala\Csharp Assignments\Assignment_6\CalculateLibrary\obj\Debug\CalculateLibrary.pdb

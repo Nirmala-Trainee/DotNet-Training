@@ -8,59 +8,113 @@ namespace Assignment_6
 {
     class Employeee
     {
-        public int EmpId { get; set; }
-        public string EmpName { get; set; }
-        public string EmpCity { get; set; }
-        public double EmpSalary { get; set; }
+        public int EmpID { get; set; }
 
-        public Employeee(int eid, string ename, string ecity, double esal)
-        {
-            EmpId = eid;
-            EmpName = ename;
-            EmpCity = ecity;
-            EmpSalary = esal;
-        }
+        public string EmpName { get; set; }
+
+        public string EmpCity { get; set; }
+
+        public double EmpSal { get; set; }
+
 
     }
 
-    class program
+    class Employee
+
     {
-        private const string V = "Vizag";
-
-
         static void Main()
+
         {
-            List<Employeee> emplist = new List<Employeee>()
+
+            Console.WriteLine("Enter List length:");
+
+            int length = Convert.ToInt32(Console.ReadLine());
+
+            List<Employeee> emplist = new List<Employeee> { };
+
+            for (int i = 0; i < length; i++)
 
             {
-              new Employeee{101,"Arthi", V, 38000 },
-              new Employeee{102,"Teja", V, 70000},
-              new Employeee{103,"Kousalya","Hyderabad",32000 },
-              new Employeee{104,"Nirmala","Banglore",35000 },
-              new Employeee{105,"shwetha","Banglore",37000 },
-              new Employeee{106,"Gowthami","Noida",39000}
-            };
-            var high_sal = emplist.FindAll(emp => emp.EmpSalary > 45000).ToList();
-            Console.WriteLine("Details of people whose salary is greater than 45k");
-            foreach (var employee in high_sal)
-            {
-                Console.WriteLine($"Id:{employee.EmpId},Name:{employee.EmpName},Location:{employee.EmpCity},Salary:{employee.EmpSalary}");
+
+                Console.WriteLine("Enter Employe ID:");
+
+                int Employee_ID = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Enter Employe Name:");
+
+                string Employee_Name = Console.ReadLine();
+
+                Console.WriteLine("Enter Employe City:");
+
+                string Employee_City = Console.ReadLine();
+
+                Console.WriteLine("Enter Employe Salary:");
+
+                double Employee_Salary = Convert.ToDouble(Console.ReadLine());
+
+                emplist.Add(new Employeee
+                {
+                    EmpID = Employee_ID,
+
+                    EmpName = Employee_Name,
+
+                    EmpCity = Employee_City,
+
+                    EmpSal = Employee_Salary
+                });
+
             }
-            var Banglore_emp = emplist.Where(emp => emp.EmpCity == "Banglore").ToList();
-            Console.WriteLine("Employees from Banglore are:");
-            foreach (var employees in Banglore_emp)
+
+            Console.WriteLine("-----Details of All employees--------");
+
+            foreach (var All in emplist)
+
             {
-                Console.WriteLine($"Id:{employees.EmpId},Name:{employees.EmpName},Location:{employees.EmpCity},Salary:{employees.EmpSalary}");
+
+                Console.WriteLine("Employee ID:{0} Name: {1} City:{2} Salary:{3} ", All.EmpID, All.EmpName, All.EmpCity, All.EmpSal);
+
             }
-            var sort_emp = emplist.OrderBy(emps => emps.EmpName).ToList();
-            Console.WriteLine("\n Sorted List Of Employees:  ");
-            foreach (var emps in sort_emp)
+
+            Console.WriteLine("----- Employees whose salary is greater than 45000--------");
+
+            foreach (var emp in emplist)
+
             {
-                Console.WriteLine($"Id:{emps.EmpId},Name:{emps.EmpName},Location:{emps.EmpCity},Salary:{emps.EmpSalary}");
+
+                if (emp.EmpSal > 45000)
+
+                    Console.WriteLine(emp.EmpName);
+
+            }
+
+            Console.WriteLine("----- Employees data who belong to Bangalore Region are--------");
+
+            foreach (var emp in emplist)
+
+            {
+
+                if (emp.EmpCity == "bengalore")
+
+                    Console.WriteLine(emp.EmpName + "from" + emp.EmpCity);
+
+            }
+
+            IEnumerable<Employeee> Ascendingorder = emplist.OrderBy(n => n.EmpName);
+
+            Console.WriteLine("----- Employees data by their names is Ascending order -------");
+
+            foreach (var emp in Ascendingorder)
+
+            {
+
+                Console.WriteLine(emp.EmpName);
+
             }
 
             Console.ReadLine();
+
         }
+
     }
 }
 
