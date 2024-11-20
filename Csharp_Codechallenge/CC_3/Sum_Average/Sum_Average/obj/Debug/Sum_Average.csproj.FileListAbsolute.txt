@@ -1,0 +1,7 @@
+C:\Nirmala\Csharp_Codechallenge\CC_3\Sum_Average\Sum_Average\bin\Debug\Sum_Average.exe.config
+C:\Nirmala\Csharp_Codechallenge\CC_3\Sum_Average\Sum_Average\bin\Debug\Sum_Average.exe
+C:\Nirmala\Csharp_Codechallenge\CC_3\Sum_Average\Sum_Average\bin\Debug\Sum_Average.pdb
+C:\Nirmala\Csharp_Codechallenge\CC_3\Sum_Average\Sum_Average\obj\Debug\Sum_Average.csproj.AssemblyReference.cache
+C:\Nirmala\Csharp_Codechallenge\CC_3\Sum_Average\Sum_Average\obj\Debug\Sum_Average.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp_Codechallenge\CC_3\Sum_Average\Sum_Average\obj\Debug\Sum_Average.exe
+C:\Nirmala\Csharp_Codechallenge\CC_3\Sum_Average\Sum_Average\obj\Debug\Sum_Average.pdb

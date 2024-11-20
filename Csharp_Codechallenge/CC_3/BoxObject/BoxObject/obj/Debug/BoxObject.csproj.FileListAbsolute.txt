@@ -1,0 +1,7 @@
+C:\Nirmala\Csharp_Codechallenge\CC_3\BoxObject\BoxObject\bin\Debug\BoxObject.exe.config
+C:\Nirmala\Csharp_Codechallenge\CC_3\BoxObject\BoxObject\bin\Debug\BoxObject.exe
+C:\Nirmala\Csharp_Codechallenge\CC_3\BoxObject\BoxObject\bin\Debug\BoxObject.pdb
+C:\Nirmala\Csharp_Codechallenge\CC_3\BoxObject\BoxObject\obj\Debug\BoxObject.csproj.AssemblyReference.cache
+C:\Nirmala\Csharp_Codechallenge\CC_3\BoxObject\BoxObject\obj\Debug\BoxObject.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp_Codechallenge\CC_3\BoxObject\BoxObject\obj\Debug\BoxObject.exe
+C:\Nirmala\Csharp_Codechallenge\CC_3\BoxObject\BoxObject\obj\Debug\BoxObject.pdb

@@ -1,0 +1,7 @@
+C:\Nirmala\Csharp_Codechallenge\CC_3\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Nirmala\Csharp_Codechallenge\CC_3\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Nirmala\Csharp_Codechallenge\CC_3\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Nirmala\Csharp_Codechallenge\CC_3\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Nirmala\Csharp_Codechallenge\CC_3\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp_Codechallenge\CC_3\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Nirmala\Csharp_Codechallenge\CC_3\Calculator\Calculator\obj\Debug\Calculator.pdb
