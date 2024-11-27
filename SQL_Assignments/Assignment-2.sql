@@ -110,3 +110,15 @@ select mgr_id,count(*) as Emp_Count
 from emp group by mgr_id
 having  count(*)>2
 
+
+
+---
+select * from EMP
+create or alter proc sp_get(@empid int)
+as
+begin
+  select Empno,Ename,Sal,Sal+100 as 'Incremented Salary' from EMP
+  where Sal<1250 and Empno=@empid
+end
+
+sp_get 7369

@@ -1,0 +1,7 @@
+C:\Nirmala\Csharp_Codechallenge\CC_4\Generics\Generics\bin\Debug\Generics.exe.config
+C:\Nirmala\Csharp_Codechallenge\CC_4\Generics\Generics\bin\Debug\Generics.exe
+C:\Nirmala\Csharp_Codechallenge\CC_4\Generics\Generics\bin\Debug\Generics.pdb
+C:\Nirmala\Csharp_Codechallenge\CC_4\Generics\Generics\obj\Debug\Generics.csproj.AssemblyReference.cache
+C:\Nirmala\Csharp_Codechallenge\CC_4\Generics\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+C:\Nirmala\Csharp_Codechallenge\CC_4\Generics\Generics\obj\Debug\Generics.exe
+C:\Nirmala\Csharp_Codechallenge\CC_4\Generics\Generics\obj\Debug\Generics.pdb
