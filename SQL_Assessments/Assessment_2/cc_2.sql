@@ -21,34 +21,31 @@ where year(getdate()) - year(hiredate) > 5
 AND MONTH(Hiredate) = MONTH(GETDATE());
 
 -----4-----
-create table Employe (
+create table Employees (
     empno int primary key,
     ename varchar(50),
     sal decimal(10, 2),
     doj date
 );
 
--- 4a. Insert 3 rows
-insert into Employe (empno, ename, sal, doj) values (1, 'Swetha', 50000, '2022-01-15');
-insert into Employe (empno, ename, sal, doj) values (2, 'Arthi', 60000, '2021-02-20');
-insert into Employe (empno, ename, sal, doj) values (3, 'Ramya', 70000, '2020-03-10');
+begin transaction
+insert into Employees (empno, ename, sal, doj) values (1, 'Swetha', 50000, '2022-01-15');
+insert into Employees (empno, ename, sal, doj) values (2, 'Arthi', 60000, '2021-02-20');
+insert into Employees (empno, ename, sal, doj) values (3, 'Ramya', 70000, '2020-03-10');
 
-select * from Employe
+
  
- -----4b------
- update Employe
+ update Employees
 set sal = sal * 1.15
 where empno = 2;
-select * from Employe
+select * from Employees
 
--- 4c. Delete the first row -------
-delete from Employe
+delete from Employees
 where empno = 1;
 
-select * from Employe
-
--- To recall the deleted row, re-insert it using the deleted data
-insert into Employe values (1, 'Swetha', 50000, '2022-01-15');
+rollback
+select * from Employees
+commit
 
 
 -----5------
