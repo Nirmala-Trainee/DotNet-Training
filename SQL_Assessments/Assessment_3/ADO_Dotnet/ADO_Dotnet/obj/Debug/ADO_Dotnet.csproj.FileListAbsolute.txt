@@ -1,0 +1,7 @@
+C:\Nirmala\SQL_Assessments\Assessment_3\ADO_Dotnet\ADO_Dotnet\obj\Debug\ADO_Dotnet.csproj.AssemblyReference.cache
+C:\Nirmala\SQL_Assessments\Assessment_3\ADO_Dotnet\ADO_Dotnet\obj\Debug\ADO_Dotnet.csproj.CoreCompileInputs.cache
+C:\Nirmala\SQL_Assessments\Assessment_3\ADO_Dotnet\ADO_Dotnet\bin\Debug\ADO_Dotnet.exe.config
+C:\Nirmala\SQL_Assessments\Assessment_3\ADO_Dotnet\ADO_Dotnet\bin\Debug\ADO_Dotnet.exe
+C:\Nirmala\SQL_Assessments\Assessment_3\ADO_Dotnet\ADO_Dotnet\bin\Debug\ADO_Dotnet.pdb
+C:\Nirmala\SQL_Assessments\Assessment_3\ADO_Dotnet\ADO_Dotnet\obj\Debug\ADO_Dotnet.exe
+C:\Nirmala\SQL_Assessments\Assessment_3\ADO_Dotnet\ADO_Dotnet\obj\Debug\ADO_Dotnet.pdb
