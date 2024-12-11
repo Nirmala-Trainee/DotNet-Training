@@ -48,31 +48,22 @@ select * from T_CourseInfo;
 
 ------------------------3-------------------------------
 
-create table Products_Details (
-    ProductId int identity(1,1) primary key,
-    ProductName varchar(30),
-    Price float not null,
-    DiscountedPrice float
-);
-
-create procedure Insert_Products
-    @ProductName varchar(100),
-    @Price float
+create table ProductDetails
+(
+Product_id int identity(1,1),
+Product_Name varchar(30),
+Price float,
+Discount_Price as (Price * 0.10)
+)
+create procedure sp_productsdetails
+@Product_Id int,
+@Product_name varchar(30),
+@Price float,
+@Discount_price float
 as
-begin
-    declare @ProductId int;
-    declare @DiscountedPrice float;
-
-    set @DiscountedPrice = @Price - (@Price * 0.10);
+Begin 
+insert into ProductDetails(Product_Name, Price)values(@Product_name, @Price);
+set @Product_Id=SCOPE_IDENTITY();
+end
  
-    insert into Products_Details(ProductName, Price, DiscountedPrice)
-    values (@ProductName, @Price, @DiscountedPrice);
-
-    set @ProductId = SCOPE_IDENTITY();
-
-    select @ProductId as ProductId, @DiscountedPrice as DiscountedPrice;
-end;
-
-exec Insert_Products @ProductName = 'Test Product', @Price = 10000;
-
-select * from Products_Details
+select * from ProductDetails;

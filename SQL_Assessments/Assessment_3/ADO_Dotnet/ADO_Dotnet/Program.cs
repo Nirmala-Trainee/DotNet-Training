@@ -12,6 +12,7 @@ namespace ADO_Dotnet
     {
         public static SqlConnection conn;
         public static SqlCommand cmd;
+        public static IDataReader dr;
         static void Main(string[] args)
         {
             insert();
@@ -20,6 +21,7 @@ namespace ADO_Dotnet
 
         static SqlConnection Connection()
         {
+            // Step 1 Connect to database
             conn = new SqlConnection("Data Source=DESKTOP-APHM8AE;Initial Catalog=SQL;" +
                 "Integrated Security=true;");
             Console.WriteLine("Connected to a database:");
@@ -33,24 +35,25 @@ namespace ADO_Dotnet
                 Connection();
                 Console.WriteLine("Connected to database...");
 
-                cmd = new SqlCommand("sp_insert", conn);
+                cmd = new SqlCommand("sp_productsdetails", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
 
+                // Getting user input for the parameters
                 Console.Write("Enter Product name : ");
                 string Pname = Console.ReadLine();
 
                 Console.Write("Enter the Product price : ");
                 int P_price = Convert.ToInt32(Console.ReadLine());
 
-                int Discount_price = P_price;
 
-                cmd = new SqlCommand("insert into Products_Details values(@ProductName,@Price,@DiscountedPrice)", conn);
+                // inserting values into ProductsDetails
+
+                cmd = new SqlCommand("insert into ProductDetails values(@ProductName,@Price)", conn);
                 Console.WriteLine();
                 Console.WriteLine("Query Executed...");
 
                 cmd.Parameters.AddWithValue("@ProductName", Pname);
-                cmd.Parameters.AddWithValue("Price", P_price);
-                cmd.Parameters.AddWithValue("@DiscountedPrice", Discount_price);
+                cmd.Parameters.AddWithValue("@Price", P_price);
 
                 int result = cmd.ExecuteNonQuery();
 
@@ -58,6 +61,16 @@ namespace ADO_Dotnet
                 {
                     Console.WriteLine();
                     Console.WriteLine("*** Product Details inserted Successfully ***");
+
+                    cmd = new SqlCommand("Select * from ProductDetails", conn);
+                    Console.WriteLine("Command is executed:");
+                    dr = cmd.ExecuteReader();
+                    Console.WriteLine("Data is retriving:");
+                    while (dr.Read())
+                    {
+                        Console.WriteLine($"{dr[0]} {dr[1]} {dr[2]} {dr[3]}");
+                    }
+
                 }
                 else Console.WriteLine("Product details not inserted");
             }
