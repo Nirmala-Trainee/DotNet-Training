@@ -1,0 +1,7 @@
+C:\Nirmala\ADO_Assignments\Ado_Assignment1\Ado_Assignment1\bin\Debug\Ado_Assignment1.exe.config
+C:\Nirmala\ADO_Assignments\Ado_Assignment1\Ado_Assignment1\bin\Debug\Ado_Assignment1.exe
+C:\Nirmala\ADO_Assignments\Ado_Assignment1\Ado_Assignment1\bin\Debug\Ado_Assignment1.pdb
+C:\Nirmala\ADO_Assignments\Ado_Assignment1\Ado_Assignment1\obj\Debug\Ado_Assignment1.csproj.AssemblyReference.cache
+C:\Nirmala\ADO_Assignments\Ado_Assignment1\Ado_Assignment1\obj\Debug\Ado_Assignment1.csproj.CoreCompileInputs.cache
+C:\Nirmala\ADO_Assignments\Ado_Assignment1\Ado_Assignment1\obj\Debug\Ado_Assignment1.exe
+C:\Nirmala\ADO_Assignments\Ado_Assignment1\Ado_Assignment1\obj\Debug\Ado_Assignment1.pdb
