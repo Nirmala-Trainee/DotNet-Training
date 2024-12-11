@@ -22,7 +22,7 @@ begin
     return DATEDIFF(day, @Start_date, @End_date);
 end;
 
-select dbo.CalCourse_Duration('2018-02-01', '2018-02-28') as Course_Duration ;
+select C_id, C_Name, Start_date, End_date, DATEDIFF(day, Start_date, End_date) as DurationInDays from Course_Details
 
 
 --------------------2-------------------------------
