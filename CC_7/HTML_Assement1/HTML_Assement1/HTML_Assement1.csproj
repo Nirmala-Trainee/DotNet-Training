@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{285609CE-3E06-4B00-ACBD-9CA63DD14FCE}</ProjectGuid>
+    <ProjectGuid>{6BC7C8BD-7CFB-40AE-9DC8-396F6AA0C35B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HTMLAssignment_1</RootNamespace>
-    <AssemblyName>HTMLAssignment_1</AssemblyName>
+    <RootNamespace>HTML_Assement1</RootNamespace>
+    <AssemblyName>HTML_Assement1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,7 +50,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTMLPage1.html" />
+    <Content Include="HTML_1.html" />
+    <Content Include="HTML_2.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Odd OR Even</title>
+</head>
+<body>
+    <h1>Odd or Even </h1>
+    <button onclick="checkOddEven()">Check</button>
+    <p id="output"></p>
+
+    <script>
+    function checkOddEven() {
+            var output = "";
+            for (var i = 0; i <= 15; i++) {
+                if (i % 2 === 0) {
+                    output += i + " is even<br>";
+                } else {
+                    output += i + " is odd<br>";
+                }
+            }
+            document.getElementById("output").innerHTML = "Output:<br> " + output;
+        }</script>
+</body>
+</html>

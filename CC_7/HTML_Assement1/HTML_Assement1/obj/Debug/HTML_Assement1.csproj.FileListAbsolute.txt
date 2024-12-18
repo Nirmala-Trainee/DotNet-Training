@@ -1,0 +1,7 @@
+C:\Nirmala\CC_7\HTML_Assement1\HTML_Assement1\bin\Debug\HTML_Assement1.exe.config
+C:\Nirmala\CC_7\HTML_Assement1\HTML_Assement1\bin\Debug\HTML_Assement1.exe
+C:\Nirmala\CC_7\HTML_Assement1\HTML_Assement1\bin\Debug\HTML_Assement1.pdb
+C:\Nirmala\CC_7\HTML_Assement1\HTML_Assement1\obj\Debug\HTML_Assement1.csproj.AssemblyReference.cache
+C:\Nirmala\CC_7\HTML_Assement1\HTML_Assement1\obj\Debug\HTML_Assement1.csproj.CoreCompileInputs.cache
+C:\Nirmala\CC_7\HTML_Assement1\HTML_Assement1\obj\Debug\HTML_Assement1.exe
+C:\Nirmala\CC_7\HTML_Assement1\HTML_Assement1\obj\Debug\HTML_Assement1.pdb

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{285609CE-3E06-4B00-ACBD-9CA63DD14FCE}</ProjectGuid>
+    <ProjectGuid>{F6AF1A3D-6D1A-4A52-9BDE-52A000F55976}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HTMLAssignment_1</RootNamespace>
-    <AssemblyName>HTMLAssignment_1</AssemblyName>
+    <RootNamespace>JavaScript_1</RootNamespace>
+    <AssemblyName>JavaScript_1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,7 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTMLPage1.html" />
+    <Content Include="JS_1.html" />
+    <Content Include="JS_2.html" />
+    <Content Include="JS_3.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
