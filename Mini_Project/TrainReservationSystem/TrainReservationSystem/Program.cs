@@ -16,33 +16,37 @@ namespace TrainReservationSystem
 
         static void Main()
         {
-            Console.WriteLine("Main Menu:");
-            Console.WriteLine("1. Admin");
-            Console.WriteLine("2. User");
-            Console.WriteLine("3. Exit");
+            while (true)
+            {
+                Console.WriteLine("Main Menu:");
+                Console.WriteLine("1. Admin");
+                Console.WriteLine("2. User");
+                Console.WriteLine("3. Exit");
 
-            Console.Write("Enter your choice: ");
-            int choice = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter your choice: ");
+                int choice = Convert.ToInt32(Console.ReadLine());
 
-            if (choice == 1)
-            {
-                AdminMenu();
-            }
-            else if (choice == 2)
-            {
-                UserMenu();
-            }
-            else if (choice == 3)
-            {
-                Console.WriteLine("Exiting the program...");
-                Environment.Exit(0);
-            }
-            else
-            {
-                Console.WriteLine("Invalid choice.......");
-                Environment.Exit(0);
-            }
+                if (choice == 1)
+                {
+                    AdminMenu();
+                }
+                else if (choice == 2)
+                {
+                    UserMenu();
+                }
+                else if (choice == 3)
+                {
+                    Console.WriteLine("Exiting the program...");
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid choice.......");
+                    Environment.Exit(0);
+                }
 
+                
+            }
             Console.Read();
         }
         static SqlConnection GetConnection()
@@ -58,7 +62,8 @@ namespace TrainReservationSystem
             Console.WriteLine("1. Add Trains");
             Console.WriteLine("2. Modify Trains");
             Console.WriteLine("3. Delete Trains");
-            Console.WriteLine("4. Exit");
+            Console.WriteLine("4. Show all trains");
+            Console.WriteLine("5. Exit");
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -67,7 +72,8 @@ namespace TrainReservationSystem
                 case 1: AddTrain(); break;
                 case 2: ModifyTrain(); break;
                 case 3: DeleteTrain(); break;
-                case 4: return;
+                case 4: ShowAllTrains(); break;
+                case 5: return;
             }
         }
 
@@ -77,7 +83,7 @@ namespace TrainReservationSystem
             Console.WriteLine("1. Book Tickets");
             Console.WriteLine("2. Cancel Tickets");
             Console.WriteLine("3. Show All Trains");
-            Console.WriteLine("4. Show Bookings");
+            Console.WriteLine("4. Show All Bookings");
             Console.WriteLine("5. Exit");
 
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -330,7 +336,7 @@ namespace TrainReservationSystem
 
             while (dr.Read())
             {
-                Console.WriteLine($"Train No: {dr[0]}, Train Name: {dr[1]}, Class: {dr[2]}, Available Berths: {dr[4]}, Source: {dr[5]}, Destination: {dr[6]}");
+                Console.WriteLine($"Train No:{dr[0]}, Train Name:{dr[1]}, Class:{dr[2]}, Available Berths:{dr[4]}, Source:{dr[5]}, Destination:{dr[6]}");
             }
             con.Close();
         }
@@ -338,18 +344,17 @@ namespace TrainReservationSystem
         static void ShowBookings()
         {
             con = GetConnection();
-            Console.WriteLine("Enter User ID to view bookings:");
-            int userID = Convert.ToInt32(Console.ReadLine());
-
-            cmd = new SqlCommand("SELECT * FROM Bookings WHERE UserID = @UserID", con);
-            cmd.Parameters.AddWithValue("@UserID", userID);
+            
+            cmd = new SqlCommand("SELECT * FROM Bookings", con);
             dr = cmd.ExecuteReader();
 
             while (dr.Read())
             {
-                Console.WriteLine($"Booking ID: {dr[0]}, Train No: {dr[1]}, Booked Berths: {dr[3]}, PassengerName: {dr[5]}, Booking Date: {dr[7]}");
+                Console.WriteLine($"Booking ID:{dr[0]}, Train No:{dr[1]}, Booked Berths:{dr[3]}, PassengerName:{dr[5]}, Booking Date:{dr[7]}");
             }
             con.Close();
         }
+       
     }
+  
 }
