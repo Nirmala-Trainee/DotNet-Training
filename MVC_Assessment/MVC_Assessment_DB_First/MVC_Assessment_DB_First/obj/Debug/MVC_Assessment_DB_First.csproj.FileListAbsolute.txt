@@ -1,2 +1,0 @@
-C:\Nirmala\MVC_Assessment\MVC_Assessment_DB_First\MVC_Assessment_DB_First\obj\Debug\MVC_Assessment_DB_First.csproj.AssemblyReference.cache
-C:\Nirmala\MVC_Assessment\MVC_Assessment_DB_First\MVC_Assessment_DB_First\obj\Debug\MVC_Assessment_DB_First.csproj.CoreCompileInputs.cache
