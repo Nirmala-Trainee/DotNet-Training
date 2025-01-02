@@ -1,0 +1,23 @@
+﻿@model MVC_Assessment_DB_First.Models.Customer
+@{
+    ViewBag.Title = "CustomerDetailsWithOrder";
+}
+
+<h2>CustomerDetailsWithOrder</h2>
+@if (Model != null)
+{
+    <p>Customer ID: @Model.CustomerID</p>
+
+    <p>Company Name: @Model.CompanyName</p>
+
+    <p>Contact Name: @Model.ContactName</p>
+
+    <p>Country: @Model.Country</p> }
+
+else
+
+{
+    <p>No ID Found</p>
+}
+
+
